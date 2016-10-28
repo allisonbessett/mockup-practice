@@ -33,10 +33,10 @@ header h4 {
 }
 
 nav {
-  background-color: gray;
+  background-color: #939495;
   width: 100%;
   text-align: center;
-  
+  box-shadow: 0rem 0rem 1rem 0rem;
 }
 
 nav a {
@@ -55,3 +55,22 @@ nav li {
   display: inline;
   padding: 2.6rem;
 }
+
+article {
+  padding: 2rem;
+}
+
+aside {
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
