@@ -1,5 +1,7 @@
 * {
+  font-family: "Lucinda Console", Monaco, monospace;
   margin: auto;
+  border: none;
 }
 
 .call-to-action {
@@ -17,9 +19,9 @@ h1 {
 }
 
 h2 {
-  margin-left: 0.5rem;
+  margin-left: 0rem;
   letter-spacing: 0.1rem;
-  padding: 0.5rem 0rem 1rem 0rem;
+  padding: 2rem 0rem 1rem 2rem;
 }
 
 h4 {
@@ -48,41 +50,62 @@ nav {
 
 nav a {
   color: purple;
- /* width: 100%;*/
 }
 
 nav ul {
-  display: inline-block;
+  display: flex;
   list-style-type: none;
   padding: 0.5rem 2rem 0.4rem 2rem;
+  
+  justify-content: space-around;
 }
 
 nav li {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   display: inline;
-  padding: 2.6rem;
-  /*add margins*/
+}
+
+h3 {
+  display:block;
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
+}
+  
+
+img {
+  width: 6rem;
+  height: auto;
+  margin: auto;
+  display: block;
 }
 
 p, p.story, p.testimonials {
   font-size: 1.2rem; 
   margin-left: 0.5rem;
-  margin-right: 1rem;
-  padding: 0rem 1rem 1rem 0rem;
-  line-height: 140%; 
+  margin-right: 0rem;
+  padding: 0rem;
+  line-height: 140%;
+
 }
 
 article {
-  padding: 2rem 1rem 1rem 1.5rem;
+  padding: 0.5rem 1rem 1rem 1.5rem;
 }
 
 
 aside {
   float: right;
-  padding-left: 1rem;
+  padding: 1rem;
+  border: 0.1em solid black;
+  align-content: center;
+  margin:auto;
 }
 
 ul {
+  padding: 1rem 0rem 0rem 1rem;;
   list-style-type: none;
   letter-spacing: 0.1rem;
 }
@@ -102,7 +125,8 @@ footer {
 }
 
 .footer-paragraph {
-  letter-spacing: 5rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
 }
 
 
