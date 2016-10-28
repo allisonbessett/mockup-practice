@@ -1,0 +1,30 @@
+* {
+  margin: auto;
+}
+
+.call-to-action {
+ font-size: 2rem;
+  text-align: right;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+
+h1, h4 {
+  background-color: black;
+}
+  
+}
+a {
+  color: #b10000;
+}
+
+nav a {
+  color: purple;
+}
+
+h1 {
+  font-size: 5rem;
+}
