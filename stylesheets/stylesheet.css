@@ -12,12 +12,14 @@
 h1 {
   color: white;
   font-size: 2.7rem;
+  letter-spacing: 0.15rem;
   padding: 0rem 0rem 0.4rem 2rem;
 }
 
 h2 {
   margin-left: 0.5rem;
-  padding: 0rem 0rem 1rem 0rem;
+  letter-spacing: 0.1rem;
+  padding: 0.5rem 0rem 1rem 0rem;
 }
 
 h4 {
@@ -62,7 +64,7 @@ nav li {
   /*add margins*/
 }
 
-p.story {
+p, p.story, p.testimonials {
   font-size: 1.2rem; 
   margin-left: 0.5rem;
   margin-right: 1rem;
@@ -74,13 +76,33 @@ article {
   padding: 2rem 1rem 1rem 1.5rem;
 }
 
+
 aside {
   float: right;
   padding-left: 1rem;
 }
 
+ul {
+  list-style-type: none;
+  letter-spacing: 0.1rem;
+}
+
+.footer-email {
+  color: #b10000;
+}
+
 footer {
-  float:
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 9rem;
+  background: black;
+  color: white;
+  list-style-type: none;
+}
+
+.footer-paragraph {
+  letter-spacing: 5rem;
 }
 
 
