@@ -12,7 +12,7 @@
 h1 {
   color: white;
   font-size: 2.7rem;
-  padding: 2rem 0rem 0.3 2rem;
+  padding: 0rem 0rem 0.4rem 2rem;
 }
 
 h2 {
@@ -32,8 +32,8 @@ a.call {
   color: #b10000;
 }
 
-header h4 {
-  font-size: 1.25rem;
+h4 {
+  font-size: 1.3rem;
   padding: 0rem 1rem 1.5rem 2rem;
 }
 
@@ -63,14 +63,15 @@ nav li {
 }
 
 p.story {
+  font-size: 1.2rem; 
   margin-left: 0.5rem;
   margin-right: 1rem;
-  padding: 0rem 1rem 1rem orem;
-  line-height: 125%; 
+  padding: 0rem 1rem 1rem 0rem;
+  line-height: 140%; 
 }
 
 article {
-  padding: 2rem;
+  padding: 2rem 1rem 1rem 1.5rem;
 }
 
 aside {
