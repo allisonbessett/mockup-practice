@@ -3,28 +3,55 @@
 }
 
 .call-to-action {
- font-size: 2rem;
+ font-size: 1.3rem;
   text-align: right;
   background-color: black;
+  padding: 0.6rem;
 }
 
 h1 {
   color: white;
+  font-size: 2.7rem;
+  padding: 2rem 0rem 0.6rem 2rem;
+}
+
+h4 {
+  color: gray;
 }
 
 h1, h4 {
   background-color: black;
 }
   
-}
-a {
+a.call {
   color: #b10000;
+}
+
+header h4 {
+  font-size: 1.25rem;
+  padding: 0rem 1rem 1.5rem 2rem;
+}
+
+nav {
+  background-color: gray;
+  width: 100%;
+  text-align: center;
+  
 }
 
 nav a {
   color: purple;
+ /* width: 100%;*/
 }
 
-h1 {
-  font-size: 5rem;
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0.5rem 2rem 0.4rem 2rem;
+}
+
+nav li {
+  font-size: 1.3rem;
+  display: inline;
+  padding: 2.6rem;
 }
