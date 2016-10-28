@@ -12,7 +12,12 @@
 h1 {
   color: white;
   font-size: 2.7rem;
-  padding: 2rem 0rem 0.6rem 2rem;
+  padding: 2rem 0rem 0.3 2rem;
+}
+
+h2 {
+  margin-left: 0.5rem;
+  padding: 0rem 0rem 1rem 0rem;
 }
 
 h4 {
@@ -54,6 +59,14 @@ nav li {
   font-size: 1.3rem;
   display: inline;
   padding: 2.6rem;
+  /*add margins*/
+}
+
+p.story {
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  padding: 0rem 1rem 1rem orem;
+  line-height: 125%; 
 }
 
 article {
@@ -62,6 +75,11 @@ article {
 
 aside {
   float: right;
+  padding-left: 1rem;
+}
+
+footer {
+  float:
 }
 
 
