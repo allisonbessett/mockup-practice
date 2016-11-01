@@ -18,6 +18,11 @@ h1 {
   padding: 0rem 0rem 0.4rem 2rem;
 }
 
+.about {
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+}
 h2 {
   margin-left: 0rem;
   letter-spacing: 0.1rem;
@@ -41,6 +46,10 @@ h4 {
   padding: 0rem 1rem 1.5rem 2rem;
 }
 
+header {
+  padding-bottom: 1rem;
+}
+
 nav {
   background-color: #939495;
   width: 100%;
@@ -55,14 +64,23 @@ nav a {
 nav ul {
   display: flex;
   list-style-type: none;
-  padding: 0.5rem 2rem 0.4rem 2rem;
-  
+  padding: 0.5rem 2rem 0.7rem 2rem;
   justify-content: space-around;
 }
 
 nav li {
   font-size: 1.1rem;
   display: inline;
+}
+
+.book-now {
+  color: #b10000; 
+}
+
+article {
+  clear: left;
+  overflow: auto;
+  margin: -1.5rem;
 }
 
 h3 {
@@ -83,12 +101,11 @@ img {
 }
 
 p, p.story, p.testimonials {
-  font-size: 1.2rem; 
+  font-size: 1rem; 
   margin-left: 0.5rem;
   margin-right: 0rem;
-  padding: 0rem;
   line-height: 140%;
-
+  padding-bottom: 1rem;
 }
 
 article {
@@ -98,11 +115,15 @@ article {
 
 aside {
   float: right;
+  width: 13rem;
+  height: inherit;
   padding: 1rem;
   border: 0.1em solid black;
   align-content: center;
-  margin:auto;
+  margin:1.5rem;
+  font-size: 0.8rem;
 }
+
 
 ul {
   padding: 1rem 0rem 0rem 1rem;;
@@ -115,6 +136,7 @@ ul {
 }
 
 footer {
+  font-size: 0.9rem;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -127,6 +149,7 @@ footer {
 .footer-paragraph {
   letter-spacing: 0.1rem;
   text-align: center;
+  font-size: 0.7rem;
 }
 
 
