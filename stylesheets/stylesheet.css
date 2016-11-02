@@ -4,11 +4,32 @@
   border: none;
 }
 
+html {
+  height: 100%
+}
+
+
 .call-to-action {
  font-size: 1.3rem;
   text-align: right;
   background-color: black;
   padding: 0.6rem;
+}
+
+body {
+  height: 100%;
+  position: relative;
+  min-height: 100%;
+  height: auto!important;
+  
+}
+
+article {
+  padding: 0.5rem 1rem 1rem 1rem;
+  clear: both;
+  overflow: auto;
+  margin-right: -1.5rem;
+  position: relative;
 }
 
 h1 {
@@ -18,15 +39,14 @@ h1 {
   padding: 0rem 0rem 0.4rem 2rem;
 }
 
-.about {
-  font-weight: bold;
-  text-align: center;
-  font-size: 2rem;
-}
 h2 {
-  margin-left: 0rem;
+  margin-left: 1.5rem;
   letter-spacing: 0.1rem;
-  padding: 2rem 0rem 1rem 2rem;
+  padding: 2rem 0rem 1.5rem 1rem;
+}
+
+.pricing {
+  text-align: center;
 }
 
 h4 {
@@ -73,14 +93,8 @@ nav li {
   display: inline;
 }
 
-.book-now {
+.book-now, .instagram, .facebook {
   color: #b10000; 
-}
-
-article {
-  clear: left;
-  overflow: auto;
-  margin: -1.5rem;
 }
 
 h3 {
@@ -92,41 +106,42 @@ figcaption {
   text-align: center;
 }
   
-
 img {
   width: 6rem;
   height: auto;
   margin: auto;
   display: block;
+  padding-bottom: 0.5rem;
 }
 
 p, p.story, p.testimonials {
   font-size: 1rem; 
-  margin-left: 0.5rem;
-  margin-right: 0rem;
+  margin-left: 1.5rem;
+  margin-right: 1rem;
   line-height: 140%;
-  padding-bottom: 1rem;
+  padding: 0.5rem 0rem 1.5rem 1rem;
 }
 
-article {
-  padding: 0.5rem 1rem 1rem 1.5rem;
+p.testimonials {
+  font-style: italic;
 }
-
 
 aside {
   float: right;
-  width: 13rem;
-  height: inherit;
-  padding: 1rem;
+  width: 19rem;
   border: 0.1em solid black;
   align-content: center;
-  margin:1.5rem;
+  margin: 1.5rem;
   font-size: 0.8rem;
 }
 
+.rates {
+  text-align: center;
+  font-weight: bold;
+}
 
 ul {
-  padding: 1rem 0rem 0rem 1rem;;
+  padding: 1rem 0rem 0rem 1rem;
   list-style-type: none;
   letter-spacing: 0.1rem;
 }
@@ -136,14 +151,17 @@ ul {
 }
 
 footer {
+  clear: both;
   font-size: 0.9rem;
   position: absolute;
-  bottom: 0;
+  bottom: 0rem;
   width: 100%;
   height: 9rem;
+  right left: 0rem;
   background: black;
   color: white;
   list-style-type: none;
+
 }
 
 .footer-paragraph {
